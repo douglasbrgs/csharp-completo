@@ -1,9 +1,9 @@
 <h1 align="center">C# Completo</h1>
 
 # Índice
-- [Sobre](#📃-sobre)
-- [Tecnologias utilizadas](#🚀-tecnologias-utilizadas)  
-- [Como baixar o projeto](#📁-como-baixar-o-projeto)
+- [Sobre](#-sobre)
+- [Tecnologias utilizadas](#-tecnologias-utilizadas)  
+- [Como baixar o projeto](#-como-baixar-o-projeto)
 
 ## 📃 Sobre
 
