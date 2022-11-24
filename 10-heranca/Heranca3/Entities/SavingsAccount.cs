@@ -1,6 +1,7 @@
 ﻿namespace Heranca3.Entities
 {
-    internal class SavingsAccount : Account
+    //"sealed" evita que a classe possa ser herdada
+    internal sealed class SavingsAccount : Account
     {
         public double InterestRate { get; set; }
 
@@ -20,7 +21,8 @@
         }
 
         //"override" indica que esta sobrescrevendo um método da superclasse
-        public override void WithDraw(double amount)
+        //"sealed" evita que o método seja sobrescrito novamente
+        public sealed override void WithDraw(double amount)
         {
             //"base" chama a implementação do método na superclasse
             base.WithDraw(amount);
